@@ -9,15 +9,24 @@
   display: flex;
 }
 
+.w-users-userformheader {
+  text-align: center;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
 .w-users-userloginformwrapper {
   margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-}
-
-.w-users-userformheader {
-  text-align: center;
 }
 
 .w-users-userformbutton {
@@ -40,7 +49,7 @@
   right: 0%;
 }
 
-.w-users-usersignupformwrapper {
+.w-users-userresetpasswordformwrapper {
   margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -49,6 +58,13 @@
 
 .w-users-userformsuccessstate {
   display: none;
+}
+
+.w-users-usersignupformwrapper {
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
 
 .w-checkbox {
@@ -100,7 +116,7 @@
   display: none;
 }
 
-.w-users-userresetpasswordformwrapper, .w-users-userupdatepasswordformwrapper {
+.w-users-userupdatepasswordformwrapper {
   margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -141,15 +157,6 @@
   text-align: center;
   color: #333;
   background-color: #d3d3d3;
-}
-
-.w-layout-grid {
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
 }
 
 body {
@@ -1010,7 +1017,7 @@ figcaption {
 .hero-section {
   height: 100vh;
   background-color: #fffdfd;
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, .14) 67%, rgba(0, 0, 0, .71) 99%), url('../images/cheveux-coupé.jpg');
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, .14) 67%, rgba(0, 0, 0, .71) 99%), url('../images/home-page-16opera.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1404,7 +1411,7 @@ figcaption {
 
 .hero-section-booking.etienne {
   height: 100vh;
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, .82) 55%, rgba(0, 0, 0, .29)), url('../images/cheveux-coiffé-lisse.JPG');
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, .82) 55%, rgba(0, 0, 0, .29)), url('../images/blond-hair.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   flex-direction: column;
@@ -1573,7 +1580,7 @@ figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 80px;
-  display: none;
+  display: block;
 }
 
 .overlay-2 {
@@ -3012,8 +3019,8 @@ figcaption {
 }
 
 .right_content {
-  background-image: url('../images/cheveux-coiffé-lisse.JPG');
-  background-position: 50%;
+  background-image: url('../images/etienne.webp');
+  background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -4855,7 +4862,7 @@ figcaption {
   }
 }
 
-#w-node-c14596ec-840c-5892-a568-9a05d7966dbe-1c75784b, #w-node-c14596ec-840c-5892-a568-9a05d7966dba-1c75784b {
+#w-node-c14596ec-840c-5892-a568-9a05d7966dbe-2e5d2bad, #w-node-c14596ec-840c-5892-a568-9a05d7966dba-2e5d2bad {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
