@@ -1,3 +1,11 @@
+:root {
+  --nolinsky: #87764e;
+  --white: white;
+  --black: black;
+  --nav: rgba(0, 0, 0, .29);
+  --bg-etienne-rishi: rgba(135, 118, 78, .1);
+}
+
 .w-users-userformpagewrap {
   height: 100vh;
   max-width: 340px;
@@ -358,7 +366,7 @@ figcaption {
 }
 
 .heading-jumbo {
-  color: #87764e;
+  color: var(--nolinsky);
   text-align: center;
   text-transform: none;
   margin-top: 10px;
@@ -409,10 +417,10 @@ figcaption {
 
 .button {
   float: right;
+  background-color: var(--nolinsky);
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #87764e;
   border-radius: 0;
   padding: 12px 25px;
   font-size: 12px;
@@ -674,7 +682,7 @@ figcaption {
 }
 
 .text-field:focus {
-  border-color: #43464d #43464d #87764e;
+  border-color: #43464d #43464d var(--nolinsky);
 }
 
 .text-field::-ms-input-placeholder {
@@ -845,9 +853,9 @@ figcaption {
 
 .btn-prise-rdv {
   width: 100%;
-  color: #fff;
+  background-color: var(--nolinsky);
+  color: var(--white);
   text-align: center;
-  background-color: #87764e;
   border-radius: 3px;
   align-self: center;
   padding: 7px 5px;
@@ -857,7 +865,7 @@ figcaption {
 }
 
 .btn-prise-rdv:hover {
-  color: #fff;
+  color: var(--white);
   background-color: rgba(135, 118, 78, .64);
 }
 
@@ -866,7 +874,7 @@ figcaption {
   min-width: 157px;
   float: none;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(255deg, #87764e, #87764e 34%, #725b25 96%);
+  background-image: linear-gradient(255deg, var(--nolinsky), #87764e 34%, #725b25 96%);
   padding: 7px 12px;
   text-decoration: none;
   transition: box-shadow .4s, transform .4s, opacity .4s;
@@ -883,8 +891,8 @@ figcaption {
   width: auto;
   min-width: auto;
   float: none;
-  color: #000;
-  background-color: #fff;
+  background-color: var(--white);
+  color: var(--black);
   background-image: none;
   padding: 3px 19px;
   font-size: .9rem;
@@ -892,7 +900,7 @@ figcaption {
 }
 
 .btn-prise-rdv.premier-page.book.bold {
-  background-color: #fff;
+  background-color: var(--white);
   background-image: none;
   font-size: .8rem;
   font-weight: 700;
@@ -931,7 +939,7 @@ figcaption {
 }
 
 .white {
-  color: #87764e;
+  color: var(--nolinsky);
 }
 
 .main-section {
@@ -973,8 +981,8 @@ figcaption {
 .med-divider {
   width: 20%;
   height: 1px;
-  color: #87764e;
-  background-color: #87764e;
+  background-color: var(--nolinsky);
+  color: var(--nolinsky);
   margin: 16px auto;
   list-style-type: lower-alpha;
   display: block;
@@ -983,7 +991,7 @@ figcaption {
 .submit-button {
   width: 25%;
   height: 50px;
-  background-color: #87764e;
+  background-color: var(--nolinsky);
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   transition: background-color .35s, color .35s;
@@ -1035,7 +1043,7 @@ figcaption {
 .hero-heading {
   color: #fff;
   letter-spacing: 0;
-  text-shadow: 4px 6px 20px #000;
+  text-shadow: 4px 6px 20px var(--black);
   margin-bottom: 5rem;
   font-family: Lato, sans-serif;
   font-size: 80px;
@@ -1105,7 +1113,7 @@ figcaption {
 }
 
 .nav-link.bold {
-  color: #fff;
+  color: var(--white);
   padding-left: 20px;
   padding-right: 0;
   font-weight: 400;
@@ -1168,8 +1176,8 @@ figcaption {
 .line-sous-titre-active {
   width: 100%;
   height: 1px;
+  background-color: var(--nolinsky);
   color: #1a1b1f;
-  background-color: #87764e;
 }
 
 .heading {
@@ -1231,7 +1239,7 @@ figcaption {
 }
 
 .heading-2 {
-  color: #87764e;
+  color: var(--nolinsky);
   text-align: center;
   margin-bottom: 50px;
   font-size: 35px;
@@ -1261,8 +1269,8 @@ figcaption {
 .line-name-active {
   width: 100%;
   height: 1px;
+  background-color: var(--nolinsky);
   color: #1a1b1f;
-  background-color: #87764e;
 }
 
 .italic-text {
@@ -1281,7 +1289,7 @@ figcaption {
 .div-block-5 {
   width: 100%;
   float: right;
-  color: #87764e;
+  color: var(--nolinsky);
   margin-top: 0;
 }
 
@@ -1335,8 +1343,8 @@ figcaption {
 .line-qui-sommes-nous-active {
   width: 100%;
   height: 1px;
+  background-color: var(--nolinsky);
   color: #1a1b1f;
-  background-color: #87764e;
 }
 
 .overlay-degrad-rishi {
@@ -1378,7 +1386,7 @@ figcaption {
 }
 
 .h1-rendez-vous-choix {
-  color: #87764e;
+  color: var(--nolinsky);
   text-align: center;
   margin-bottom: 77px;
   font-size: 35px;
@@ -1430,7 +1438,7 @@ figcaption {
 
 .section-booking-choice {
   height: auto;
-  background-color: #fff;
+  background-color: var(--white);
   margin-bottom: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1458,7 +1466,7 @@ figcaption {
 }
 
 .heading-4.text-color-white {
-  color: #fff;
+  color: var(--white);
   margin-bottom: 20px;
   padding-left: 0;
 }
@@ -1471,7 +1479,7 @@ figcaption {
 }
 
 .text-block-3.text-color-white {
-  color: #fff;
+  color: var(--white);
   padding-left: 0;
 }
 
@@ -1482,7 +1490,7 @@ figcaption {
 }
 
 .text-block-4.text-color-white {
-  color: #fff;
+  color: var(--white);
   margin-left: 0;
   font-size: 1.5rem;
 }
@@ -1534,13 +1542,13 @@ figcaption {
 .div-btn-book-rishi {
   width: 100%;
   float: right;
-  color: #87764e;
+  color: var(--nolinsky);
   margin-top: 21px;
 }
 
 .btn-prise-rdv-rishi {
   width: auto;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   background-color: red;
   border-radius: 3px;
@@ -1551,7 +1559,7 @@ figcaption {
 }
 
 .btn-prise-rdv-rishi:hover {
-  color: #fff;
+  color: var(--white);
   background-color: rgba(255, 0, 0, .8);
 }
 
@@ -2390,7 +2398,7 @@ figcaption {
   width: 100%;
   min-height: 100vh;
   background-color: #d1e7fb;
-  background-image: linear-gradient(#d1e7fb, #fff 46%);
+  background-image: linear-gradient(to bottom, #d1e7fb, var(--white) 46%);
   justify-content: center;
   align-items: center;
   padding-top: 100px;
@@ -3005,6 +3013,7 @@ figcaption {
   height: 100vh;
   grid-column-gap: 0px;
   grid-template-rows: auto;
+  grid-template-columns: 1fr;
 }
 
 .left_content {
@@ -3043,7 +3052,7 @@ figcaption {
 }
 
 .text-color-white {
-  color: #fff;
+  color: var(--white);
 }
 
 .custom-container {
@@ -3132,7 +3141,7 @@ figcaption {
   }
 
   .container {
-    border-bottom: 1px #87764e;
+    border-bottom: 1px none var(--nolinsky);
   }
 
   .heading-jumbo {
@@ -3332,12 +3341,12 @@ figcaption {
   }
 
   .nav-menu {
-    background-color: rgba(0, 0, 0, .29);
+    background-color: var(--nav);
     display: flex;
   }
 
   .nav-link {
-    color: #fff;
+    color: var(--white);
     display: block;
   }
 
@@ -3458,7 +3467,7 @@ figcaption {
   }
 
   .heading-4.text-color-white {
-    color: #fff;
+    color: var(--white);
   }
 
   .text-block-3 {
@@ -3467,7 +3476,7 @@ figcaption {
   }
 
   .text-block-3.text-color-white {
-    color: #fff;
+    color: var(--white);
   }
 
   .text-block-4 {
@@ -3478,7 +3487,7 @@ figcaption {
   }
 
   .text-block-4.text-color-white {
-    color: #fff;
+    color: var(--white);
   }
 
   .tarifs-wrapper {
@@ -3491,7 +3500,7 @@ figcaption {
   }
 
   .text-block-6.text-color-white {
-    color: #fff;
+    color: var(--white);
   }
 
   .div-btn-book-rishi {
@@ -3604,12 +3613,12 @@ figcaption {
   .grid {
     grid-column-gap: .5px;
     grid-row-gap: 2px;
-    background-color: #fff;
+    background-color: var(--white);
     grid-template-columns: 1fr 1fr;
   }
 
   .text-color-white {
-    color: #fff;
+    color: var(--white);
   }
 }
 
@@ -3870,7 +3879,7 @@ figcaption {
   .nav-menu {
     width: 100%;
     height: 100svh;
-    color: rgba(0, 0, 0, .29);
+    color: var(--nav);
     background-color: rgba(0, 0, 0, 0);
     margin-top: 3rem;
     padding-top: 2rem;
@@ -4000,14 +4009,14 @@ figcaption {
   }
 
   .div-block-10 {
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 20px;
     justify-content: flex-end;
     margin-bottom: 0;
   }
 
   .div-block-11 {
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 20px;
     padding: 0;
   }
@@ -4298,7 +4307,7 @@ figcaption {
   }
 
   .text-field:focus {
-    border-bottom-color: #87764e;
+    border-bottom-color: var(--nolinsky);
   }
 
   .contact {
@@ -4477,7 +4486,7 @@ figcaption {
   }
 
   .nav-link.bold {
-    color: #fff;
+    color: var(--white);
     justify-content: flex-start;
     padding-left: 0;
     display: flex;
@@ -4862,7 +4871,7 @@ figcaption {
   }
 }
 
-#w-node-c14596ec-840c-5892-a568-9a05d7966dbe-2e5d2bad, #w-node-c14596ec-840c-5892-a568-9a05d7966dba-2e5d2bad {
+#w-node-c14596ec-840c-5892-a568-9a05d7966dba-2e5d2bad {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
