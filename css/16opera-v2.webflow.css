@@ -898,6 +898,8 @@ figcaption {
 .btn-prise-rdv.premier-page.book.bold {
   background-color: var(--white);
   background-image: none;
+  margin-left: auto;
+  margin-right: auto;
   font-size: .8rem;
   font-weight: 700;
   box-shadow: 0 4px 9px -5px #000;
@@ -1443,13 +1445,17 @@ figcaption {
 
 .descriptif-booking {
   background-color: rgba(0, 0, 0, 0);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
+  display: flex;
 }
 
 .heading-4 {
@@ -1463,6 +1469,7 @@ figcaption {
 
 .heading-4.text-color-white {
   color: var(--white);
+  text-align: center;
   margin-bottom: 20px;
   padding-left: 0;
 }
@@ -1477,6 +1484,7 @@ figcaption {
 .text-block-3.text-color-white {
   color: var(--white);
   padding-left: 0;
+  text-decoration: none;
 }
 
 .text-block-4 {
@@ -1497,6 +1505,7 @@ figcaption {
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
+  display: flex;
 }
 
 .div-block-15 {
@@ -1540,6 +1549,8 @@ figcaption {
   color: var(--nolinsky);
   width: 100%;
   margin-top: 21px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-prise-rdv-rishi {
@@ -3027,6 +3038,15 @@ figcaption {
   max-width: 68rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.div-block-22, .hero_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-block {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
